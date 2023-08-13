@@ -5,9 +5,8 @@ spring:
     config:
       server:
         git:
-          default-label: config-server
+          default-label: eureka
           uri: https://github.com/mabenuz21/app-springboot
           search-paths: config-data
-
   application:
     name: config-service
